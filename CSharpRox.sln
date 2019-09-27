@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoConsole", "src\DemoCons
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6CC50C27-9FD3-4A66-ABA9-4C7AFC3F36CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Core", "src\Demo.Core\Demo.Core.csproj", "{4FA60D17-03AF-494B-84F5-A15ECC297E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Pubs.Core", "src\Demo.Core\Demo.Pubs.Core.csproj", "{4FA60D17-03AF-494B-84F5-A15ECC297E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
