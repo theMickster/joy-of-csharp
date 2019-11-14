@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Demo.Pubs.API</name>
+    </assembly>
+    <members>
+        <member name="M:Demo.Pubs.API.Controllers.BooksController.GetBook(System.String)">
+            <summary>
+            Retrieving a Book using its BookId
+            </summary>
+            <remarks>
+            Retrieves a Book using its BookId
+            </remarks>
+            <param name="id">The Id of the Book item to be retrieved</param>
+            <returns>Returns the full Book document </returns>
+            <returns>Returns 200 OK success </returns>
+            <returns>Returns 404 Not Found error</returns>
+            <returns>Returns 500 Internal Server Error </returns>
+        </member>
+        <member name="T:Demo.Pubs.API.Extensions.HealthCheckBuilderCosmosDbExtensions">
+            <summary>
+            For more information, visit:
+              - https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health
+              - https://github.com/dotnet-architecture/HealthChecks
+            </summary>
+        </member>
+    </members>
+</doc>

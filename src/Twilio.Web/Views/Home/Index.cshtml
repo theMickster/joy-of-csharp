@@ -1,0 +1,28 @@
+﻿@model TwilioResponse
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <h2>Twilio Response</h2>
+    <hr />
+        <div>
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(m => m.Sid)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayTextFor(m => m.Sid)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(m => m.Status)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayTextFor(m => m.Status)
+                </dd>
+            </dl>
+        </div>
+</div>
