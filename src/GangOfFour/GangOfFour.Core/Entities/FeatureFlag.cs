@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GangOfFour.Singleton.Entities
+namespace GangOfFour.Core.Entities
 {
     public class FeatureFlag
     {

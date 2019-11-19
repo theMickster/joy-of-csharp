@@ -1,5 +1,5 @@
 ﻿using System;
-using GangOfFour.Singleton.Entities;
+using GangOfFour.Core.Entities;
 
 namespace GangOfFour.Singleton
 {

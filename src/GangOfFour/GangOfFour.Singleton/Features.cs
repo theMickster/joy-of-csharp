@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using GangOfFour.Singleton.Entities;
+using GangOfFour.Core.Entities;
 
 namespace GangOfFour.Singleton
 {

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GangOfFour.Application\GangOfFour.Application.csproj" />
     <ProjectReference Include="..\GangOfFour.Core\GangOfFour.Core.csproj" />
   </ItemGroup>
 

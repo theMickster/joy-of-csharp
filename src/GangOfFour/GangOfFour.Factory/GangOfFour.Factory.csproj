@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GangOfFour.Application\GangOfFour.Application.csproj" />
     <ProjectReference Include="..\GangOfFour.Core\GangOfFour.Core.csproj" />
   </ItemGroup>
 
