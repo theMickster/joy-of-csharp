@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.Bridge", "src\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.Adapter", "src\GangOfFour\GangOfFour.Adapter\GangOfFour.Adapter.csproj", "{16725EDC-A326-4869-8CEF-90E912AB56E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.Composite", "src\GangOfFour\GangOfFour.Composite\GangOfFour.Composite.csproj", "{37D8FA6C-AC87-4631-8875-25DE466E9B95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{16725EDC-A326-4869-8CEF-90E912AB56E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16725EDC-A326-4869-8CEF-90E912AB56E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16725EDC-A326-4869-8CEF-90E912AB56E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D8FA6C-AC87-4631-8875-25DE466E9B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D8FA6C-AC87-4631-8875-25DE466E9B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D8FA6C-AC87-4631-8875-25DE466E9B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D8FA6C-AC87-4631-8875-25DE466E9B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +111,7 @@ Global
 		{F6B4E369-5314-4E77-A7C4-C135F2B51618} = {89A8748E-9233-4D88-9385-8AE41FF54DE1}
 		{5338E8C9-2A41-44AE-935E-85A73939C56F} = {89A8748E-9233-4D88-9385-8AE41FF54DE1}
 		{16725EDC-A326-4869-8CEF-90E912AB56E1} = {89A8748E-9233-4D88-9385-8AE41FF54DE1}
+		{37D8FA6C-AC87-4631-8875-25DE466E9B95} = {89A8748E-9233-4D88-9385-8AE41FF54DE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3E013F2-80AC-40D4-A83C-E6A79210A7D5}
