@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GangOfFour.ChainOfResponsib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.State", "src\GangOfFour\GangOfFour.State\GangOfFour.State.csproj", "{E0C74A4E-A16B-4443-ACC7-509A2685A51D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.Flyweight", "src\GangOfFour\GangOfFour.Flyweight\GangOfFour.Flyweight.csproj", "{3E41FFC4-A419-4F96-A696-A935B6530590}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{E0C74A4E-A16B-4443-ACC7-509A2685A51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0C74A4E-A16B-4443-ACC7-509A2685A51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0C74A4E-A16B-4443-ACC7-509A2685A51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E41FFC4-A419-4F96-A696-A935B6530590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E41FFC4-A419-4F96-A696-A935B6530590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E41FFC4-A419-4F96-A696-A935B6530590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E41FFC4-A419-4F96-A696-A935B6530590}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{FADAA8FC-2456-459A-90E4-F5330DC564C8} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
 		{F0B1753F-65EF-4756-AD07-4AAEFEDD60C0} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
 		{E0C74A4E-A16B-4443-ACC7-509A2685A51D} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
+		{3E41FFC4-A419-4F96-A696-A935B6530590} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {956D71B0-CDC6-4284-BFCE-99CD90956DF0}
