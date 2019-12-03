@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GangOfFour.Memento", "src\G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.Observer", "src\GangOfFour\GangOfFour.Observer\GangOfFour.Observer.csproj", "{D6ABBAB4-BE5D-46F3-9298-6322AA2E5D4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GangOfFour.Strategy", "src\GangOfFour\GangOfFour.Strategy\GangOfFour.Strategy.csproj", "{521D1F12-B087-476B-A1B8-6BDE4F1D0147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{D6ABBAB4-BE5D-46F3-9298-6322AA2E5D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6ABBAB4-BE5D-46F3-9298-6322AA2E5D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6ABBAB4-BE5D-46F3-9298-6322AA2E5D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521D1F12-B087-476B-A1B8-6BDE4F1D0147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521D1F12-B087-476B-A1B8-6BDE4F1D0147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521D1F12-B087-476B-A1B8-6BDE4F1D0147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521D1F12-B087-476B-A1B8-6BDE4F1D0147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +157,7 @@ Global
 		{AEC932F6-B615-4313-BCE3-BCB20BADCC0B} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
 		{1FC36517-658A-4E04-A9EA-CE76A6BA0CEE} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
 		{D6ABBAB4-BE5D-46F3-9298-6322AA2E5D4E} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
+		{521D1F12-B087-476B-A1B8-6BDE4F1D0147} = {7E5D986A-856F-47BF-8E86-FE7B33339C3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {956D71B0-CDC6-4284-BFCE-99CD90956DF0}
