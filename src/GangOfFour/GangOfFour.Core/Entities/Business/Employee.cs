@@ -2,7 +2,7 @@
 using GangOfFour.Core.Enumerations;
 using GangOfFour.Core.Interfaces;
 
-namespace GangOfFour.Core.Entities
+namespace GangOfFour.Core.Entities.Business
 {
     public abstract class Employee : Person, IEmployee
     {
@@ -11,6 +11,8 @@ namespace GangOfFour.Core.Entities
         public string Role { get; set; }
 
         public int PayRate { get; private set; }
+
+        public int VacationDays { get; set; }
 
         protected Employee(string firstName, string lastName, Hometown hometown, EmployeeClassification classification) 
             : base(firstName, lastName, hometown)

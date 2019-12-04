@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using System.Xml.Schema;
 using GangOfFour.Core.Interfaces;
 
-namespace GangOfFour.Core.Entities
+namespace GangOfFour.Core.Entities.Business
 {
     public abstract class Person : IPerson
     {
@@ -59,6 +58,11 @@ namespace GangOfFour.Core.Entities
             }
 
             LastName = updatedLastName;
+        }
+
+        public void Accept(IVisitor visitor)
+        {
+            visitor.Visit(this);
         }
     }
 }
