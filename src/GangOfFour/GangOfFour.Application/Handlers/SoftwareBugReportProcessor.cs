@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using GangOfFour.Core.Entities;
+﻿using GangOfFour.Core.Entities;
 using GangOfFour.Core.Interfaces.SoftwareBugs;
+using System;
+using System.Collections.Generic;
 
 namespace GangOfFour.Application.Handlers
 {
