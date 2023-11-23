@@ -1,12 +1,13 @@
 ﻿using System;
 using GangOfFour.Core.Entities;
+using GangOfFour.Core.Entities.Business;
 using GangOfFour.Core.Enumerations;
 
 namespace GangOfFour.Prototype
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Gang of Four Design Pattern - Prototype");

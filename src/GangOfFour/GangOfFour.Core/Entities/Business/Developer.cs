@@ -2,7 +2,7 @@
 using GangOfFour.Core.Enumerations;
 using GangOfFour.Core.Interfaces;
 
-namespace GangOfFour.Core.Entities
+namespace GangOfFour.Core.Entities.Business
 {
     public class Developer : Employee, IDeveloper
     {
@@ -18,7 +18,7 @@ namespace GangOfFour.Core.Entities
 
         public string GetDetails()
         {
-            return base.Display() + Environment.NewLine + $"Seniority: {SeniorityLevel.ToString()} - Favorite Programming Language: {FavoriteProgrammingLanguage}";
+            return base.Display() + Environment.NewLine + $"Seniority: {SeniorityLevel.ToString()} - Favorite Programming Language: {FavoriteProgrammingLanguage} Vacation Days: {VacationDays}";
         }
     }
 }
